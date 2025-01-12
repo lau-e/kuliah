@@ -1,0 +1,238 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: arial;
+}
+.menu-navigasi {
+    background-color: black;
+    padding: 15px;
+}
+
+.namatoko {
+    background-color: grey;
+    font-weight: bold;
+    font-style: oblique;
+    font-size: 20px;
+    border-radius: 5px;
+    text-decoration: underline;
+}
+
+ul li {
+    border-radius: 5px;
+    display: inline-block;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+ul li a {
+    padding-left: 10px;
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    font-weight: bold;
+}
+
+ul li a:hover {
+    background-color: black;
+    color: white;
+    transition: 1s;
+    border-radius: 5px;
+}
+
+input {
+    padding: 3px;
+    margin-left: 15px;
+}
+
+.cari {
+    margin-left: 2px;
+    padding-left: 7px;
+    padding-right: 7px;
+}
+
+/* Halaman Utama*/
+
+.content{
+    width: 1200px;
+    height: auto;
+    margin: auto;
+    color: grey;
+    position: relative;
+}
+
+.content .par{
+    padding-left: 20px;
+    padding-bottom: 25px;
+    font-family: Arial;
+    letter-spacing: 1.2px;
+    line-height: 30px;
+}
+
+.content h1{
+    font-family: 'Times New Roman';
+    font-size: 50px;
+    padding-left: 20px;
+    margin-top: 9%;
+    letter-spacing: 2px;
+}
+
+.content .cn{
+    width: 160px;
+    height: 40px;
+    background: grey;
+    border: none;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: .4s ease;
+
+}
+
+.content .cn a{
+    text-decoration: none;
+    color: black;
+    transition: .3s ease;
+}
+
+.cn:hover{
+    background-color: #fff;
+}
+
+.content span{
+    color: black;
+    font-size: 65px;
+}
+
+
+
+/* tulisan koleksi */
+
+.koleksi {
+    margin-left: 35px;
+    padding-top: 10px;
+    padding-bottom: 5px;
+}
+
+
+/* script css halaman produk */
+
+.daftar-produk {
+    margin-top: 10px;
+    margin-left: 2%;
+}
+
+.responsive {
+    padding: 5px;
+}
+
+div.gallery {
+    border-radius: 5px;
+    border: 1px solid #DCDCDC;
+}
+
+div.gallery:hover {
+    border: 1px solid #777;
+}
+
+div.gallery .foto1 {
+    position: relative;
+    top: -100px;
+    height: 15rem;
+    width: auto;
+}
+
+div.gallery .foto2 {
+    height: 100px;
+    width: 250px;
+    position: relative;
+    right: 18px;
+    top: -100px;
+}
+
+div.desc {
+    padding: 15px;
+    padding-bottom: 10px;
+}
+
+p {
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.beli-produk {
+    text-decoration: none;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border-radius: 5px;
+    border: 1px solid black;
+}
+
+.beli-produk:hover {
+    cursor: pointer;
+}
+
+.btn-detail {
+    padding: 10px;
+    text-decoration: none;
+    background-color: #555555;
+    color: white;
+    border-radius: 5px;
+    border: 1px solid black;
+}
+
+.responsive {
+    padding: 6px;
+    float: left;
+    width: 20%;
+}
+
+.daftar-produk .responsive .gallery img {
+    padding: 1.5%;
+    position: a;
+}
+
+.daftar-produk .responsive .gallery img {
+    height: 15rem;
+    transform: rotate(0deg);
+    filter: drop-shadow(0 .5rem 1rem rgba(0, 0, 0, .1));
+    margin: 8rem 2rem;
+}
+
+@media only screen and (max-width: 500px) {
+    .responsive {
+        width: 49.99999%;
+        margin: 6px 0;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .responsive {
+        width: 100%;
+        height: 10rem;
+    }
+}
+
+.container {
+    margin-left: 25px;
+}
+
+.keranjang-belanja {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+table {
+    width: 60%;
+}
+
+.tombol-kembali {
+    text-decoration: none;
+    background-color: cornflowerblue;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+}

@@ -1,0 +1,92 @@
+body {
+   font-family: sans-serif;
+   background: #d5f0f3;
+}
+
+h1{
+   text-align: center;
+   font-weight: 300;
+}
+.tulisan_login{
+   text-align: center;
+   text-transform: uppercase;
+   padding-bottom: 5%;
+}
+.kotak_login{
+   width: 350px;
+   background: white;
+   margin: 80px auto;
+   padding: 5px 20px;
+}
+label{
+   font-size: 11pt;
+   margin-left: 15px;
+}
+textarea {
+   margin-left: 15px;
+}
+.opsi {
+   width: 74%;
+}
+.form_login{
+   box-sizing : border-box;
+   width: 90%;
+   padding: 10px;
+   font-size: 11pt;
+   margin-bottom: 20px;
+}
+.tombol_kategori{
+   background: #46de4b;
+   color: white;
+   font-size: 11pt;
+   width: 90%;
+   size: 35px;
+   text-align: center;
+   border: none;
+   margin-left: 38%;
+   text-decoration: none;
+   border-radius: 3px;
+   padding: 10px 20px;
+}
+/* .tombol_login{
+   margin-left: 5px;
+   background: #46de4b;
+   color: white;
+   font-size: 11pt;
+   width: 90%;
+   border: none;
+   border-radius: 3px;
+   padding: 10px 20px;
+} */
+.tombol_login{
+   background: #46de4b;
+   color: white;
+   font-size: 11pt;
+   width: 90%;
+   size: 35px;
+   text-align: center;
+   border: none;
+   margin-left: 38%;
+   text-decoration: none;
+   border-radius: 3px;
+   padding: 10px 20px;
+}
+.tombol_regis{
+   background: #46de4b;
+   color: white;
+   font-size: 11pt;
+   width: 90%;
+   size: 35px;
+   text-align: center;
+   border: none;
+   margin-left: 35%;
+   text-decoration: none;
+   border-radius: 3px;
+   padding: 10px 20px;
+}
+.link{
+   color: #232323;
+   text-decoration: none;
+   font-size: 10pt;
+   cursor: pointer;
+}

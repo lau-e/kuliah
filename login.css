@@ -1,0 +1,18 @@
+*{
+    box-sizing :border-box;
+    padding :0;
+    margin : 0;
+}
+
+.kotak_login{
+    width: 345px;
+    background: rgb(112, 165, 106);
+    margin: 100px auto;
+    padding: 20px 25px;
+}
+
+.kotak_login input {
+    height: 30px;
+    width: 15rem;
+    margin-top : 15px;
+}

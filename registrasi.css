@@ -1,0 +1,57 @@
+*{
+    box-sizing :border-box;
+    padding :0;
+    margin : 0;
+}
+
+.kotak_login{
+    width: 345px;
+    background: rgb(112, 165, 106);
+    margin: 100px auto;
+    padding: 20px 25px;
+}
+
+.kotak_login input {
+    height: 30px;
+    width: 15rem;
+    margin-top : 15px;
+}
+
+.kotak_login label{
+    position: relative;
+    top : 15px;
+    left : 15px;
+}
+
+.tombol_regis {
+    
+    margin-left: 10px;
+    height: 40px;
+    width: 10rem;
+    background-color: rgb(0, 99, 0);
+    
+
+    color: white;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 20px 20px 0px 55.5px;
+}
+
+.tabel {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.table th td {
+    text-align: left;
+    padding: 8px;
+}
+
+.table tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.table th {
+    background-color: #04AA6D;
+    color: white;
+}

@@ -1,0 +1,37 @@
+*{
+    box-sizing :border-box;
+    padding :0;
+    margin : 0;
+}
+
+.kotak_pemesanan{
+    width: 345px;
+    background: rgb(112, 165, 106);
+    margin: 100px auto;
+    padding: 20px 25px;
+}
+
+.kotak_pemesanan input {
+    height: 30px;
+    width: 15rem;
+    margin-top : 15px;
+}
+
+.kotak_pemesanan label{
+    position: relative;
+    top : 15px;
+    left : 15px;
+}
+
+.tombol_pemesanan {
+    
+    margin-left: 10px;
+    height: 40px;
+    width: 10rem;
+    background-color: rgb(0, 99, 0);
+
+    color: white;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 20px 20px 0px 55.5px;
+}
